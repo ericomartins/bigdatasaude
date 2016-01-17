@@ -2,6 +2,7 @@ criamodelo <- function(train,feat_pred){
 
   set.seed(1413) 
   
+  
   names(train)[names(train) == feat_pred] <- 'feat_pred'
   
   train[is.na(train)]   <- 0
