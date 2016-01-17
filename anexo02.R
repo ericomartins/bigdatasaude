@@ -11,6 +11,7 @@ barplot(graf1$qtd_casos, main="Rio de Janeiro - Incidência anual de casos de de
 graf1
 
 
+
 ############################## GRAFICO 02 ##############################
 graf2 <- aggregate(qtd_casos ~ caso_ano + caso_mes, data=casos[casos$caso_ano < 2015,],sum)
 
